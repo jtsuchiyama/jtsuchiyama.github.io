@@ -7,10 +7,9 @@
     <a-scene embedded arjs>
         <a-marker preset="hiro">
             <!-- we use cors proxy to avoid cross-origin problems ATTENTION! you need to set up your server -->
-            <a-entity 
-                obj-model=”obj: url("https://drive.google.com/file/d/1EO55dor-xUnY6yK7Fht4bPYSjBJ0mvXS/view?usp=sharing"); 
-                mtl: url(qiyana_bb2.mtl)”>
-            </a-entity>
+            <a-entity position="0 0 0"
+                      scale="0.05 0.05 0.05"
+                      gltf-model="deez.gltf"></a-entity>
         </a-marker>
         <a-entity camera></a-entity>
     </a-scene>
