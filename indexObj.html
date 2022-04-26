@@ -7,7 +7,9 @@
     <a-scene embedded arjs>
         <a-marker preset="hiro">
             <!-- we use cors proxy to avoid cross-origin problems ATTENTION! you need to set up your server -->
-            <a-entity gltf-model=”url(qiyana.gltf)”>
+            <a-entity obj-model=”obj: url(https://jtsuchiyama.github.io/qiyanaOptimized.obj); 
+             mtl: url(https://jtsuchiyama.github.io/qiyanaOptimized.mtl)”>
+
             </a-entity>
         </a-marker>
         <a-entity camera></a-entity>
