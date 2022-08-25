@@ -1,7 +1,33 @@
+header {
+    overflow: hidden;
+    padding: 14px 16px;
+}
+
 .title {
-    
+    float: left;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
+    padding-left: 100px;
 }
 
 .nav {
+    float:right;
+    padding-right: 100px;
+}
+
+.nav a { 
     font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0px 8px;
+    color: grey;
+}
+
+.nav a:hover {
+    color: black;
+}
+
+@media screen and (max-width: 640px) {
+    
 }
