@@ -1,0 +1,17 @@
+footer {
+    text-align: center;
+}
+
+.icons {
+    display:inline-block;
+    margin-bottom: 7px;
+}
+
+.icons a {
+    color: inherit;
+}
+
+.icons svg {
+    margin: 0px 12px;
+}
+
