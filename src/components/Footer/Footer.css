@@ -1,10 +1,5 @@
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     text-align: center;
-    padding-bottom: 7px;
 }
 
 .icons {
@@ -19,3 +14,4 @@ footer {
 .icons svg {
     margin: 0px 12px;
 }
+
