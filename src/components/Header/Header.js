@@ -2,7 +2,7 @@ import './Header.css';
 
 function Header() {
     return (
-        <header>
+        <nav>
             <div>
                 <div className="title">Jake Tsuchiyama</div>
                 <div className="nav">
@@ -11,8 +11,7 @@ function Header() {
                     <a href="/music">Music</a>
                 </div>
             </div>
-            
-        </header>
+        </nav>
     )
 }
 
