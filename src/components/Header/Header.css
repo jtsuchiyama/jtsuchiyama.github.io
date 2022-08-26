@@ -1,6 +1,7 @@
 header {
     overflow: hidden;
     padding: 14px 16px;
+    min-height: 50px;
 }
 
 .title {
