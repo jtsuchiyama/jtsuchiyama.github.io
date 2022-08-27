@@ -1,6 +1,7 @@
 .app {
     display: flex;
     flex-direction: column;
+    font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
 }
 
 .app .page {
