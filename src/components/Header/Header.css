@@ -1,31 +1,38 @@
-header {
-    overflow: hidden;
-    padding: 14px 16px;
+nav {
     min-height: 50px;
+    display:flex;
+    margin-bottom:20px;
 }
 
 .title {
-    float: left;
     font-weight: 700;
-    font-size: 32px;
-    font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
-    padding-left: 100px;
+    font-size: 48px;
+    margin: auto 12px;
+    width: fit-content;
+    color: #FD5956;
 }
 
-.nav {
-    float:right;
-    padding-right: 100px;
+.links {
+    margin:auto;
+    width: fit-content;
 }
 
-.nav a { 
-    font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
+.links-left {
+    margin-right: 0px;
+}
+
+.links-right {
+    margin-left: 0px;
+}
+
+.links a { 
     font-size: 16px;
     text-decoration: none;
     padding: 0px 8px;
     color: grey;
 }
 
-.nav a:hover {
+.links a:hover {
     color: black;
 }
 
