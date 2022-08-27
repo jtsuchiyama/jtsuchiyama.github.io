@@ -42,14 +42,10 @@ nav button {
         padding: 0;
         display: block;
         text-decoration: none;
-      }
-      
-      .nav-menu li a {
-        padding: 0;
-        display: block;
+        color: black;
       }
 
-      .nav-menu li:hover {
-        background-color: rgb(234, 234, 234);
+      .nav-menu ul li:hover {
+        background-color: rgb(209, 209, 209);
       }
 }
