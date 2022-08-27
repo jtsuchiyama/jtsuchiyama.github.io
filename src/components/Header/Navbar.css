@@ -1,3 +1,55 @@
-svg {
-    margin: auto 0px;
+.nav {
+    display:none;
+}
+
+nav button {
+    border: none;
+    background: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        display: block;
+        margin: auto 0px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .expanded {
+        display: block;
+    }
+
+    .nav-menu ul {
+        position: absolute;
+        top: 55px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        background-color: white;
+        border-top: 1px solid black;
+      }
+
+      .nav-menu ul li {
+        text-align: center;
+        margin: 0;
+        list-style-type: none;
+      }
+
+      .nav-menu li a {
+        padding: 0;
+        display: block;
+        text-decoration: none;
+      }
+      
+      .nav-menu li a {
+        padding: 0;
+        display: block;
+      }
+
+      .nav-menu li:hover {
+        background-color: rgb(234, 234, 234);
+      }
 }
