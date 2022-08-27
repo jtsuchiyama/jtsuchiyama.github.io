@@ -1,4 +1,5 @@
 import './Header.css';
+import Navbar from './Navbar.js';
 
 function Header() {
     return (
@@ -12,6 +13,7 @@ function Header() {
                 <a href="/music">Music</a>
                 <a href="/aboutme">More About Me</a>
             </div>
+            <Navbar></Navbar>
         </nav>
     )
 }
