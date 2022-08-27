@@ -1,15 +1,11 @@
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .icons {
     display:inline-block;
-    margin: 7px 0px;
+    margin-top: 10px;
 }
 
 .icons a {
