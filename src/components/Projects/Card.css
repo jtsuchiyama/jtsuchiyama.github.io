@@ -1,36 +1,50 @@
-.card {
-    border-radius: 30px;
-    height: 300px;
-    width: 400px;
-    margin: 50px 30px;
-}
-
-.card img {
-    border-radius: 30px;
+.card-front {
+    border: 2px solid black;
     width: 400px;
     height: 300px;
+    margin: 30px 50px 0px 50px;
+    border-radius: 30px;
 }
 
-.card-title {
-    color: black;
-    font-size: 32px;
+.card-back {
+    border: 2px solid black;
+    height: 300px;
+    width: 400px;
+    
 }
 
+.card-front img {
+    border-radius: 30px;
+    width: 400px;
+    height: 300px;
+}
 
-.front-open {
+.card-front .front {
     display: block; 
 }
 
-.front-close {
+.card-back .front {
     display: none; 
  }
 
-.back-open {
+.card-back .back {
     display: block; 
 }
  
- .back-close {
+.card-front .back {
     display: none; 
+}
+
+.card-title-show {
+    display: block;
+    color: black;
+    font-size: 32px;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+.card-title-hide {
+    display: none;
 }
 
 @media screen and (max-width: 768px) {

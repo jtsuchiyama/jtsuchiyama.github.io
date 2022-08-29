@@ -9,27 +9,28 @@ function Card(props) {
     }
 
     return (
-        <div className="card" onClick={toggleCard}>
-            <div className={isCardExpanded ? "front-close" : "front-open"}>
-                <img src={props.image} alt={props.alt}/>
-                <div className="card-title">
-                    {props.title}
+        <div>
+            <div className={isCardExpanded ? "card-back" : "card-front"} onClick={toggleCard}>
+                <div className="front">
+                    <img src={props.image} alt={props.alt}/>
+                </div>
+                <div className="back">
+                    <div className="card-title">
+                        {props.title}
+                    </div>
+
+                    <div className="body">
+                        {props.body}
+                    </div>
+
+                    <div className="link">
+                        <a href={props.link} target="_blank" rel="noreferrer">GitHub</a>
+                    </div>
                 </div>
             </div>
-            <div className={isCardExpanded ? "back-open" : "back-close"}>
-                <div className="card-title">
-                    {props.title}
-                </div>
-
-                <div className="body">
-                    {props.body}
-                </div>
-
-                <div className="link">
-                    <a href={props.link} target="_blank" rel="noreferrer">GitHub</a>
-                </div>
-            </div>
+            <div className={isCardExpanded ? "card-title-hide" : "card-title-show"}>{props.title}</div>
         </div>
+        
     )
 }
 

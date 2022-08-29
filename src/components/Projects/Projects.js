@@ -5,12 +5,9 @@ import covidtracker from './images/covidtracker.png';
 function Projects() {
     return (
         <div className="projects">
-            <Card title='hi' body='hi' link='https://github.com/' image={covidtracker} alt='Covid Tracker'></Card>
-            <Card title='hi' body='hi' link='https://github.com/' image={covidtracker} alt='Covid Tracker'></Card>
-            <Card title='hi' body='hi' link='https://github.com/' image={covidtracker} alt='Covid Tracker'></Card>
-            <Card title='hi' body='hi' link='https://github.com/' image={covidtracker} alt='Covid Tracker'></Card>
-            <Card title='hi' body='hi' link='https://github.com/' image={covidtracker} alt='Covid Tracker'></Card>
-            <Card title='hi' body='hi' link='https://github.com/' image={covidtracker} alt='Covid Tracker'></Card>
+            <Card title='Covid Tracker' body='hi' link='https://github.com/' image={covidtracker} alt='Covid Tracker'></Card>
+            <Card title='Covid Tracker' body='hi' link='https://github.com/' image={covidtracker} alt='Covid Tracker'></Card>
+            <Card title='Covid Tracker' body='hi' link='https://github.com/' image={covidtracker} alt='Covid Tracker'></Card>
         </div>
     )
 }
