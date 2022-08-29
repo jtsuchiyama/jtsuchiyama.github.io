@@ -1,0 +1,38 @@
+.card {
+    border-radius: 30px;
+    height: 300px;
+    width: 400px;
+    margin: 50px 30px;
+}
+
+.card img {
+    border-radius: 30px;
+    width: 400px;
+    height: 300px;
+}
+
+.card-title {
+    color: black;
+    font-size: 32px;
+}
+
+
+.front-open {
+    display: block; 
+}
+
+.front-close {
+    display: none; 
+ }
+
+.back-open {
+    display: block; 
+}
+ 
+ .back-close {
+    display: none; 
+}
+
+@media screen and (max-width: 768px) {
+
+}
