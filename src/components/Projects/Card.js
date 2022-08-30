@@ -21,6 +21,10 @@ function Card(props) {
                             {props.title}
                         </div>
 
+                        <div className="back-role">
+                            <b>{props.role}</b> 
+                        </div>
+
                         <div className="back-lang">
                             <b>Languages:</b> {props.lang}
                         </div>
