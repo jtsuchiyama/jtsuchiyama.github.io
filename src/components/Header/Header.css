@@ -11,6 +11,11 @@ nav {
     margin: auto 12px;
     width: fit-content;
     color: #FD5956;
+    text-decoration: none;
+}
+
+.header-title:hover {
+    color:#ff7d7b
 }
 
 .links {

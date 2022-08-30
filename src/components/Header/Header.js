@@ -8,7 +8,7 @@ function Header() {
                 <a href="/">Home</a>
                 <a href="/projects">Projects</a>
             </div>
-            <div className="header-title">Jake Tsuchiyama</div>
+            <a className="header-title" href="/">Jake Tsuchiyama</a>
             <div className="links links-right">
                 <a href="/music">Music</a>
                 <a href="/aboutme">More About Me</a>
