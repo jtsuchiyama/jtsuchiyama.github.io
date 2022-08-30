@@ -7,3 +7,19 @@
 .app .page {
     display:flex;
 } 
+
+.linkedin {
+    color: rgb(10, 102, 194);
+}
+
+.github {
+    color: #24292F;
+}
+
+.youtube {
+    color: #FF0000;
+}
+
+svg:hover {
+    transform: scale(1.2);
+}

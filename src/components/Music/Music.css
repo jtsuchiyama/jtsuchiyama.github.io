@@ -35,9 +35,16 @@
 }
 
 .music-info a {
-    color: black;
     margin: 0px 10px;
     font-size: 20px;
+}
+
+.music-info .music-link {
+    color: black;
+}
+
+.music-info .music-link:hover {
+    color: grey;
 }
 
 .covers a {

@@ -13,8 +13,8 @@ function Music() {
                 <p>When I was younger, I competed in ukulele competitions.</p> 
                 <p>Nowadays, I enjoy composing ukulele covers for my favorite songs, posting YouTube videos, and playing for friends and family!</p>
                 <div className="music-links">
-                    <a href="https://www.youtube.com/c/jtkulele" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} size="lg"/></a>
-                    <a href="https://drive.google.com/drive/folders/1M_o5XEoDZMH9rYeSdZE3gL9ZT7GX6YQ3?usp=sharing" target="_blank" rel="noreferrer">My Sheet Music!</a>
+                    <a className="youtube" href="https://www.youtube.com/c/jtkulele" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} size="2xl"/></a>
+                    <a className="music-link" href="https://drive.google.com/drive/folders/1M_o5XEoDZMH9rYeSdZE3gL9ZT7GX6YQ3?usp=sharing" target="_blank" rel="noreferrer">My Sheet Music!</a>
                 </div>
             </div>
             <div className="music-headline">Recommended Anime Covers</div>

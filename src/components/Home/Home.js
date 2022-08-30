@@ -13,9 +13,9 @@ function Home() {
                 <p>I am proficient in languages such as Python, C, and JavaScript and also have experience with React and Unity.</p>
 
                 <div className="home-icons">
-                    <a href="https://www.linkedin.com/in/jake-tsuchiyama" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="lg"/></a>
-                    <a href="https://github.com/jtsuchiyama" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="lg"/></a>
-                    <a href="https://www.youtube.com/c/jtkulele" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} size="lg"/></a>
+                    <a className="linkedin" href="https://www.linkedin.com/in/jake-tsuchiyama" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2xl"/></a>
+                    <a className="github" href="https://github.com/jtsuchiyama" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="2xl"/></a>
+                    <a className="youtube" href="https://www.youtube.com/c/jtkulele" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} size="2xl"/></a>
                 </div>
             </div>
             <div className="story">

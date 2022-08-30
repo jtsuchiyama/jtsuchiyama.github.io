@@ -28,10 +28,6 @@ p {
     display:inline-block;
 }
 
-.home-icons a {
-    color: inherit;
-}
-
 .home-icons svg {
     margin: 20px 12px;
 }
