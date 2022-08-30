@@ -10,7 +10,7 @@ import newresume from './images/newresume.png';
 function Projects() {
     return (
         <div>
-            <div className="projects-headline">Projects</div>
+            <div className="projects-headline">Projects I Have Worked On</div>
             <div className="projects">
                 <Card title='New Resume Website' role='Lead Engineer' lang='JavaScript' tech='React' body='Created a new personal portfolio web app JavaScript and React to practice what I learned from my Nike summer internship and give myself more creative freedom by using a more powerful front-end library' link='https://github.com/jtsuchiyama/react-app' image={newresume} alt='New Resume Website'></Card>
                 <Card title='Old Resume Website' role='Lead Engineer' lang='Python' tech='Flask' body='Created a personal portfolio web app with Python and Flask to better introduce myself and display my coding projects and ukulele covers' link='https://github.com/jtsuchiyama/flask-app' image={oldresume} alt='Old Resume Website'></Card>

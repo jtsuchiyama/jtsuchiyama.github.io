@@ -5,7 +5,7 @@
 }
 
 .card-front {
-    border: 2px solid black;
+    border: 1px solid rgb(206, 205, 205);
     width: 400px;
     height: 285px;
     margin: 0px 50px 30px 50px;
@@ -13,18 +13,27 @@
 }
 
 .card-back {
-    border: 2px solid black;
+    border: 1px solid rgb(206, 205, 205);
     width: 400px;
     height: 285px;
     margin: 0px 50px 30px 50px;
     border-radius: 30px;
 }
 
+.card-front:hover {
+    box-shadow: 0 0 3em 0px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01) translateY(0.2rem);
+}
+
+.card-back:hover {
+    box-shadow: 0 0 4em 0px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01) translateY(0.2rem);
+}
+
 .card-front img {
     border-radius: 30px 30px 0px 0px;
     width: 400px;
     height: 240px;
-    border-bottom: 2px solid black;
 }
 
 .front-title {
