@@ -1,7 +1,7 @@
 import './Home.css';
-import headshot from './headshot.jpg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import headshot from './headshot.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 function Home() {
     return (
@@ -13,9 +13,9 @@ function Home() {
                 <p>I am proficient in languages such as Python, C, and JavaScript and also have experience with React and Unity.</p>
 
                 <div className="home-icons">
-                    <a href="https://www.linkedin.com/in/jake-tsuchiyama" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
-                    <a href="https://github.com/jtsuchiyama" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
-                    <a href="https://www.youtube.com/c/jtkulele" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} /></a>
+                    <a href="https://www.linkedin.com/in/jake-tsuchiyama" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="lg"/></a>
+                    <a href="https://github.com/jtsuchiyama" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="lg"/></a>
+                    <a href="https://www.youtube.com/c/jtkulele" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} size="lg"/></a>
                 </div>
             </div>
             <div className="story">
