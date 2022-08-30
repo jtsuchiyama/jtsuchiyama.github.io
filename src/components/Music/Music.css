@@ -1,0 +1,39 @@
+.covers {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.music-headline {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+}
+
+.covers a {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1440px) {
+    .covers {
+        display: grid;
+        gap: 1px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        margin: 40px 0px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .covers {
+        display: grid;
+        gap: 1px;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        margin: 40px 0px;
+    }
+}
