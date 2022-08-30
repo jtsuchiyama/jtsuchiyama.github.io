@@ -16,7 +16,7 @@ function Projects() {
             <div className="projects-headline">Projects I Have Worked On</div>
             <div className="projects-info">
                 <img className="projects-headshot" src={headshot} alt="headshot" />
-                <p>In my freetime, I enjoy working on projects in whatever fields that I am currently interested in</p>
+                <p>In my freetime, I enjoy working on projects in whatever fields that I am currently interested in.</p>
                 <p>My project journey conveys my different interests throughout the years.</p>
                 <div className="projects-links">
                     <a className="github" href="https://www.youtube.com/c/jtkulele" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="2xl"/></a>
