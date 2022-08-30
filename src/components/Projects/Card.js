@@ -39,9 +39,7 @@ function Card(props) {
 
                         <div className="back-body">
                             {props.body}
-                        </div>
-
-                        
+                        </div>                        
                     </div>
                 </div>
             </div>
