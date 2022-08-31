@@ -4,6 +4,7 @@ import Footer from '../Footer/Footer.js';
 import Home from '../Home/Home.js';
 import Projects from '../Projects/Projects.js';
 import Music from '../Music/Music.js';
+import About from '../About/About.js';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />}/>
           <Route path="/projects" element={<Projects />}/>
           <Route path="/music" element={<Music />}/>
+          <Route path="/about" element={<About />}/>
         </Routes>
         <Footer></Footer>
       </Router>

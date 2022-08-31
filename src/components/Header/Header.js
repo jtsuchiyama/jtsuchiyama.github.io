@@ -11,7 +11,7 @@ function Header() {
             <a className="header-title" href="/">Jake Tsuchiyama</a>
             <div className="links links-right">
                 <a href="/music">Music</a>
-                <a href="/aboutme">More About Me</a>
+                <a href="/about">More About Me</a>
             </div>
             <Navbar></Navbar>
         </nav>
