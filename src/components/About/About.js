@@ -13,11 +13,11 @@ function About() {
         <p>This page can help you to meet those sides of me!</p> 
       </div>
       <div className="about">
-        <Icon type={faGuitar} size="5x"></Icon>
-        <Icon type={faDumbbell} size="5x"></Icon>
-        <Icon type={faPersonRunning} size="5x"></Icon>
-        <Icon type={faGamepad} size="5x"></Icon>
-        <Icon type={faBookOpenReader} size="5x"></Icon>
+        <Icon type={faGuitar} size="5x" title="Performer"></Icon>
+        <Icon type={faDumbbell} size="5x" title="Lifter"></Icon>
+        <Icon type={faPersonRunning} size="5x" title="Runner"></Icon>
+        <Icon type={faGamepad} size="5x" title="Gamer"></Icon>
+        <Icon type={faBookOpenReader} size="5x" title="Reader"></Icon>
       </div>
 
     </div>

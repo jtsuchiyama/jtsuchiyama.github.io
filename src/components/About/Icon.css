@@ -1,0 +1,41 @@
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 175px;
+}
+
+.icon-front svg:hover {
+    transform: scale(1.2) translateY(0.2rem);
+}
+
+.icon-back {
+    display: flex;
+    width: 250px;
+    height: 175px;
+    border: 1px solid rgb(206, 205, 205);
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.icon-back:hover {
+    box-shadow: 0 0 4em 0px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01) translateY(0.2rem);
+}
+
+.icon-title {
+    display: flex;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.icon-title svg {
+    margin: 0px 10px;
+}
+
+.icon-title svg:hover {
+    transform: scale(1);
+}

@@ -11,16 +11,20 @@ function Icon(props) {
     }
 
     return (
-        <div>
+        <div className="icon" onClick={toggleIcon} >
             {!isIconExpanded && 
                 <div className="icon-front">
-                    <FontAwesomeIcon icon={props.type} size={props.size} onClick={toggleIcon} />
+                    <FontAwesomeIcon icon={props.type} size={props.size} />
                 </div>
             }
 
             {isIconExpanded && 
                 <div className="icon-back">
-                    Hello!
+                    <div className="icon-title">
+                        {props.title}
+                        <FontAwesomeIcon icon={props.type} size="s" />
+                    </div>
+                    <p>{props.body}</p>
                 </div>
             }
         </div>
