@@ -28,3 +28,34 @@
     justify-content: center;
     margin: 60px 0px;
 }
+
+@media screen and (max-width: 1500px) {
+    .about {
+        display: grid;
+        gap: 1px;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        margin: 40px 0px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .about {
+        display: grid;
+        gap: 1px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        margin: 40px 0px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .about {
+        display: grid;
+        gap: 1px;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-content: center;
+        margin: 40px 0px;
+    }
+}
