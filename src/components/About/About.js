@@ -9,8 +9,8 @@ function About() {
       <div className="about-headline">I am a...</div>
       <div className="about-info">
         <img className="about-headshot" src={headshot} alt="headshot" />
-        <p>Like anyone else, there are a lot more parts of me besides my interest in Software Engineering.</p> 
-        <p>This page can help you to meet those sides of me!</p> 
+        <p>Like anyone else, there are a lot more parts of me besides being a Software Engineer.</p> 
+        <p>This page can help you to learn about some of my other interests!</p>
       </div>
       <div className="about">
         <Icon type={faGuitar} size="5x" title="Performer"></Icon>
