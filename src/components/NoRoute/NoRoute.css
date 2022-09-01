@@ -34,3 +34,7 @@
     color: black;
 }
 
+.noroute a:hover {
+    color: grey;
+}
+
