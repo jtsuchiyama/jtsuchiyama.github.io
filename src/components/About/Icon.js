@@ -25,6 +25,7 @@ function Icon(props) {
                         <FontAwesomeIcon icon={props.type} size="s" />
                     </div>
                     <p>{props.body}</p>
+                    <a href={props.link} target="_blank" rel="noreferrer">{props.linkTitle}</a>
                 </div>
             }
         </div>

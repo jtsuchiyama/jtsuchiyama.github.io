@@ -17,6 +17,7 @@
     border: 1px solid rgb(206, 205, 205);
     border-radius: 30px;
     padding: 15px;
+    flex-direction: column;
 }
 
 .icon-back:hover {
@@ -37,4 +38,13 @@
 
 .icon-title svg:hover {
     transform: scale(1);
+}
+
+.icon-back p {
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+.icon-back a {
+    color: black;
 }
