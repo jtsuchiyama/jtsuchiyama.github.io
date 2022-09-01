@@ -1,0 +1,36 @@
+.noroute {
+    margin-bottom: 60px;
+}
+
+.noroute-headline {
+    font-weight: 600;
+    font-size: 64px;
+    text-align: center;
+    margin: 40px 0px 30px 0px;
+    color: #FD5956;
+}
+
+.noroute-headshot {
+    display:block;
+    margin: 20px auto;
+
+    border-radius: 50%;
+    width: 200px;
+    height:auto;
+}
+
+.noroute p {
+    text-align: center;
+    margin: 10px auto;
+    font-size: 24px;
+}
+
+.noroute .not-found {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.noroute a {
+    color: black;
+}
+
