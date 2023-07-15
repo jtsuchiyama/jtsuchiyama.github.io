@@ -9,7 +9,7 @@ function Music() {
         <div>
             <div className="music-headline">My Ukulele Covers!</div>
             <div className="music-info">
-                <img className="music-headshot" src={headshot} alt="headshot" />
+                <img className="music-headshot" src={headshot} alt="headshot credits to SCU MCC" />
                 <p>When I was younger, I competed in ukulele competitions.</p> 
                 <p>Nowadays, I enjoy composing ukulele covers for my favorite songs, posting YouTube videos, and playing for friends and family!</p>
                 <div className="music-links">
