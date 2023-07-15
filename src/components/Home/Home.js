@@ -8,9 +8,9 @@ function Home() {
         <div>
             <div className="intro">
                 <div className="headline">Full-stack developer and so much more...</div>
-                <img className="headshot" src={headshot} alt="headshot" />
+                <img className="headshot" src={headshot} alt="headshot credits to jenna yoshimi" />
                 <p>I am an aspiring full-stack developer with an interest in building consumer-facing applications.</p>
-                <p>I am proficient in languages such as Python, C, and JavaScript and also have experience with React and Unity.</p>
+                <p>I am proficient in languages such as Python, C#, C, and JavaScript and also have experience with Unity and React.</p>
 
                 <div className="home-icons">
                     <a className="linkedin" href="https://www.linkedin.com/in/jake-tsuchiyama" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2xl"/></a>
@@ -22,14 +22,13 @@ function Home() {
                 <div className="headline">My Story</div>
                 <div className="story-list">
                     <ul>
-                        <li>Born on March 27, 2001 in Tokyo, Japan</li>
-                        <li>Adopted and grew up in Honolulu, Hawaii</li>
-                        <li>Let's fast forward, I graduate Iolani High School w/ zero coding experience</li>
-                        <li>Santa Clara University for my B.S. Computer Science and Engineering, 2023</li>
-                        <li>Turns out coding is fun!</li>
-                        <li>Analytics Engineering Intern at TCW during Summer 2021</li>
-                        <li>Software Engineer Intern at Nike during Summer 2022</li>
-                        <li>W.I.P.</li>
+                        <li>Born on <b>March 27, 2001</b> in <b>Tokyo, Japan</b></li>
+                        <li>Adopted and grew up in <b>Honolulu, Hawaii</b></li>
+                        <li>Let's fast forward, graduated from <b>Iolani High School</b> in <b>June 2019</b></li>
+                        <li><b>Analytics Engineering Intern</b> at <b>TCW</b> during <b>Summer 2021</b></li>
+                        <li><b>Software Engineer Intern</b> at <b>Nike</b> during <b>Summer 2022</b></li>
+                        <li>Graduated from <b>Santa Clara University</b> with my <b>B.S. Computer Science and Engineering</b> in <b>June 2023</b></li>
+                        <li>Loading...</li>
                     </ul>
                 </div>
                 

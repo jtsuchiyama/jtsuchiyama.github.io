@@ -1,6 +1,6 @@
 import './Music.css';
 import MusicCard from './MusicCard';
-import headshot from './headshot.png';
+import headshot from './headshot.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 
