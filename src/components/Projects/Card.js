@@ -34,7 +34,7 @@ function Card(props) {
                         </div>
 
                         <div className="back-link">
-                            <a href={props.link} target="_blank" rel="noreferrer"><b>Click me for GitHub repo!</b></a>
+                            <a href={props.link} target="_blank" rel="noreferrer"><b>Click me to see the project!</b></a>
                         </div>
 
                         <div className="back-body">
