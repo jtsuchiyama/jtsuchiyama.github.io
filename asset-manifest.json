@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-app/static/css/main.0ffdf031.css",
+    "main.js": "/react-app/static/js/main.30672a94.js",
+    "static/media/headshot.jpg": "/react-app/static/media/headshot.e4be62a650da63cd32cf.jpg",
+    "static/media/oldresume.png": "/react-app/static/media/oldresume.2b7416bf8c8d35bf2ff2.png",
+    "static/media/ukulele-cv.png": "/react-app/static/media/ukulele-cv.b79c551919f066e952a1.png",
+    "static/media/polaris.png": "/react-app/static/media/polaris.630ce1775d408a25216a.png",
+    "static/media/newresume.png": "/react-app/static/media/newresume.3e6e41208ddd7f00dbe4.png",
+    "static/media/covidtracker.png": "/react-app/static/media/covidtracker.696308f4c6784bcebc9d.png",
+    "static/media/workout.png": "/react-app/static/media/workout.a3e92f595bf6ea63bbaa.png",
+    "index.html": "/react-app/index.html",
+    "main.0ffdf031.css.map": "/react-app/static/css/main.0ffdf031.css.map",
+    "main.30672a94.js.map": "/react-app/static/js/main.30672a94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ffdf031.css",
+    "static/js/main.30672a94.js"
+  ]
+}
