@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/a/static/css/main.0ffdf031.css",
-    "main.js": "/a/static/js/main.29467b81.js",
-    "static/media/headshot.jpg": "/a/static/media/headshot.e4be62a650da63cd32cf.jpg",
-    "static/media/oldresume.png": "/a/static/media/oldresume.2b7416bf8c8d35bf2ff2.png",
-    "static/media/ukulele-cv.png": "/a/static/media/ukulele-cv.b79c551919f066e952a1.png",
-    "static/media/polaris.png": "/a/static/media/polaris.630ce1775d408a25216a.png",
-    "static/media/newresume.png": "/a/static/media/newresume.3e6e41208ddd7f00dbe4.png",
-    "static/media/covidtracker.png": "/a/static/media/covidtracker.696308f4c6784bcebc9d.png",
-    "static/media/workout.png": "/a/static/media/workout.a3e92f595bf6ea63bbaa.png",
-    "index.html": "/a/index.html",
-    "main.0ffdf031.css.map": "/a/static/css/main.0ffdf031.css.map",
-    "main.29467b81.js.map": "/a/static/js/main.29467b81.js.map"
+    "main.css": "/static/css/main.0ffdf031.css",
+    "main.js": "/static/js/main.baa06824.js",
+    "static/media/headshot.jpg": "/static/media/headshot.e4be62a650da63cd32cf.jpg",
+    "static/media/oldresume.png": "/static/media/oldresume.2b7416bf8c8d35bf2ff2.png",
+    "static/media/ukulele-cv.png": "/static/media/ukulele-cv.b79c551919f066e952a1.png",
+    "static/media/polaris.png": "/static/media/polaris.630ce1775d408a25216a.png",
+    "static/media/newresume.png": "/static/media/newresume.3e6e41208ddd7f00dbe4.png",
+    "static/media/covidtracker.png": "/static/media/covidtracker.696308f4c6784bcebc9d.png",
+    "static/media/workout.png": "/static/media/workout.a3e92f595bf6ea63bbaa.png",
+    "index.html": "/index.html",
+    "main.0ffdf031.css.map": "/static/css/main.0ffdf031.css.map",
+    "main.baa06824.js.map": "/static/js/main.baa06824.js.map"
   },
   "entrypoints": [
     "static/css/main.0ffdf031.css",
-    "static/js/main.29467b81.js"
+    "static/js/main.baa06824.js"
   ]
 }
