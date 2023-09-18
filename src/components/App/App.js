@@ -6,7 +6,7 @@ import Projects from '../Projects/Projects.js';
 import Music from '../Music/Music.js';
 import About from '../About/About.js';
 import NoRoute from '../NoRoute/NoRoute.js'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {HashRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
