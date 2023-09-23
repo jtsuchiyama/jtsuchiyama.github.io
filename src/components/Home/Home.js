@@ -9,7 +9,8 @@ function Home() {
             <div className="intro">
                 <div className="headline">Full-stack developer and so much more...</div>
                 <img className="headshot" src={headshot} alt="headshot credits to jenna yoshimi" />
-                <p>I am an aspiring full-stack developer with an interest in building consumer-facing applications.</p>
+                <h3>Current Role: Global Technology Rotational Engineer at Nike</h3>
+                <p>I am an aspiring full-stack developer with an interest in bettering lives through building consumer-facing applications.</p>
                 <p>I am proficient in languages such as Python, C#, C, and JavaScript and also have experience with Unity and React.</p>
 
                 <div className="home-icons">
@@ -28,6 +29,7 @@ function Home() {
                         <li><b>Analytics Engineering Intern</b> at <b>TCW</b> during <b>Summer 2021</b></li>
                         <li><b>Software Engineer Intern</b> at <b>Nike</b> during <b>Summer 2022</b></li>
                         <li>Graduated from <b>Santa Clara University</b> with my <b>B.S. Computer Science and Engineering</b> in <b>June 2023</b></li>
+                        <li>Currently working as a <b>Global Technology Rotational Engineer</b> at <b>Nike WHQ in Beaverton, Oregon</b></li>
                         <li>Loading...</li>
                     </ul>
                 </div>
