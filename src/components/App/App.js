@@ -6,12 +6,11 @@ import Projects from '../Projects/Projects.js';
 import Music from '../Music/Music.js';
 import About from '../About/About.js';
 import NoRoute from '../NoRoute/NoRoute.js'
-import {HashRouter as Router, Routes, Route} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className="app">
-      <Router>
         <Header></Header>
         <Routes>
           <Route path="/" element={<Home />}/>
@@ -21,8 +20,6 @@ function App() {
           <Route path="*" element={<NoRoute />}/>
         </Routes>
         <Footer></Footer>
-      </Router>
-      
     </div>
   );
 }
