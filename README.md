@@ -2,7 +2,7 @@
 
 A personal portfolio website created with JavaScript and React. It contains a combination of coding projects, music covers, and more information about myself!
 
-## Link: https://www.jaketsuchiyama.me/
+## Link: https://www.jtsuchiyama.github.io/
 
 ## Build Instructions
 1. Download Node.js and NPM
